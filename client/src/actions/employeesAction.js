@@ -17,7 +17,7 @@ import {
 } from '../constants/employeesConstant';
 
 export const request = axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: 'https://enigmatic-springs-70849.herokuapp.com',
   headers: {
     'Content-type': 'application/json',
   },
